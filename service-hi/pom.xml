@@ -9,7 +9,7 @@
         <version>2.1.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>springcloud.com.zkp</groupId>
+    <groupId>com.zkp</groupId>
     <artifactId>service-hi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service-hi</name>
