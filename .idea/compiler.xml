@@ -6,14 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
-        <module name="service-feign" />
-        <module name="service-hi" />
+        <module name="chapter1-5" />
         <module name="service-ribbon" />
+      </profile>
+      <profile name="Annotation profile for service-zuul" enabled="true">
+        <sourceOutputDir name="../../service-zuul/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../service-zuul/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="service-zuul" />
+      </profile>
+      <profile name="Annotation profile for service-hi" enabled="true">
+        <sourceOutputDir name="../../service-hi/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../service-hi/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-hi" />
+      </profile>
+      <profile name="Annotation profile for eureka-server" enabled="true">
+        <sourceOutputDir name="../../eureka-server/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../eureka-server/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+      </profile>
+      <profile name="Annotation profile for service-feign" enabled="true">
+        <sourceOutputDir name="../../service-feign/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../service-feign/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chapter1-5" target="1.5" />
       <module name="eureka-server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
