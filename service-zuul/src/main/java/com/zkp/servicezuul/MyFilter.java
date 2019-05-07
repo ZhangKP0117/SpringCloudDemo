@@ -30,7 +30,7 @@ public class MyFilter extends ZuulFilter {
 
     /**
      *
-     * filterOrder：过滤的顺序
+     * filterOrder：通过int值来定义过滤器的执行顺序，数值越小优先级越高。
      */
     @Override
     public int filterOrder() {
@@ -39,7 +39,7 @@ public class MyFilter extends ZuulFilter {
 
     /**
      *
-     * shouldFilter：这里可以写逻辑判断，是否要过滤，本文true,永远过滤。
+     * shouldFilter：返回一个boolean类型来判断该过滤器是否要执行。我们可以通过此方法来指定过滤器的有效范围。
      */
     @Override
     public boolean shouldFilter() {
@@ -49,7 +49,7 @@ public class MyFilter extends ZuulFilter {
 
     /**
      *
-     * run：过滤器的具体逻辑。可用很复杂，包括查sql，nosql去判断该请求到底有没有权限访问。
+     * run：过滤器的具体逻辑。在该方法中，我们可以实现自定义的过滤逻辑，来确定是否要拦截当前的请求，不对其进行后续的路由，或是在请求路由返回结果之后，对处理结果做一些加工等。
      */
     @Override
     public Object run() {
