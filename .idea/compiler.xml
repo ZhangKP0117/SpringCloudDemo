@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="service-zuul" />
-        <module name="eureka-server" />
-        <module name="service-ribbon" />
-        <module name="service-hi" />
+        <module name="config-server" />
         <module name="service-feign" />
+        <module name="eureka-server" />
+        <module name="service-hi" />
+        <module name="service-ribbon" />
+        <module name="config-client" />
+        <module name="config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
@@ -23,6 +29,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="config-client" options="" />
+      <module name="config-server" options="" />
       <module name="eureka-server" options="-parameters" />
       <module name="service-hi" options="-parameters" />
     </option>
