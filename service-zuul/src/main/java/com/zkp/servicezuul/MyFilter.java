@@ -53,7 +53,7 @@ public class MyFilter extends ZuulFilter {
         log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
         Object accessToken = request.getParameter("token");
         if (accessToken == null) {
-            log.warn("token is empty");
+            log.warn("token is notempty");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
             try {
