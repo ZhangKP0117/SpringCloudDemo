@@ -27,7 +27,7 @@ public class MyFilter extends ZuulFilter {
 
 
     /**
-     * filterOrder：通过int值来定义过滤器的执行顺序，数值越小优先级越高。
+     * filterOrder：通过int值来定义过滤器的执行顺序，数值越小优先级越低。
      */
     @Override
     public int filterOrder() {
