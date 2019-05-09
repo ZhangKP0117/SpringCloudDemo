@@ -73,7 +73,7 @@ Spring Cloud包含了多个子项目（针对分布式系统中涉及的多个�
 
 - 启动工程后，访问：http://localhost:8761
 
-- ![image](https://github.com/zhangkp1006/SpringCloudDemo/img/1.png)
+- ![image](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/1.png)
 
   ```java
   No application available 没有服务被发现 ……
@@ -125,7 +125,7 @@ Spring Cloud包含了多个子项目（针对分布式系统中涉及的多个�
 
 - 启动此项目，访问http://localhost:8761 即可发现该服务已注册，名称为service-hi 端口为8762、
 
-  ![image](https://github.com/zhangkp1006/SpringCloudDemo/img/2.png)
+  ![image](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/2.png)
 
 - 访问 http://localhost:8762/hi?name=123
 
@@ -152,7 +152,7 @@ Spring Cloud包含了多个子项目（针对分布式系统中涉及的多个�
 service-hi在eureka-server注册了2个实例
 ```
 
- ![image](https://github.com/zhangkp1006/SpringCloudDemo/img/4.png)
+ ![image](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/4.png)
     
 
 ##### 建立一个服务消费者
@@ -263,7 +263,7 @@ service-hi在eureka-server注册了2个实例
 
   - 当sercvice-ribbon通过restTemplate调用service-hi的hi接口时，因为用ribbon进行了负载均衡，会轮流的调用service-hi：8762和8763 两个端口的hi接口；
 
-    ![image](https://github.com/zhangkp1006/SpringCloudDemo/img/5.png)
+    ![image](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/5.png)
 
 
 
@@ -569,15 +569,15 @@ hi 123,I am from port:8762
 
 - 此时访问http://localhost:8769/api-a/hi?name=123 ；
 
-  网页显示：![image](https://github.com/zhangkp1006/SpringCloudDemo/img/9.png)
+  网页显示：![image](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/9.png)
 
   - 访问 http://localhost:8769/api-a/hi?name=123&token=111 ；
 
-  网页显示：![image](https://github.com/zhangkp1006/SpringCloudDemo/img/10.png)
+  网页显示：![image](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/10.png)
 
 - 此时的架构
 
-  ![1557196884743](https://github.com/zhangkp1006/SpringCloudDemo/img/1557196884743.png)
+  ![1557196884743](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/1557196884743.png)
 
 #### 分布式配置中心
 
@@ -629,7 +629,7 @@ hi 123,I am from port:8762
 
 - 启动程序：访问http://localhost:8888/zkp/dev
 
-  ![1557285756046](https://github.com/zhangkp1006/SpringCloudDemo/img/1557285756046.png)
+  ![1557285756046](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/1557285756046.png)
 
 - 创建config-client
 
@@ -672,6 +672,6 @@ hi 123,I am from port:8762
 
 - 访问：http://localhost:8881/hi，网页显示：
 
-  ![1557388100317](https://github.com/zhangkp1006/SpringCloudDemo/img/1557388100317.png)
+  ![1557388100317](https://github.com/zhangkp1006/SpringCloudDemo/blob/master/img/1557388100317.png)
 
   
