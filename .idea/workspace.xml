@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be632818-6073-40ef-9679-347b70680893" name="Default Changelist" comment="config 配置中心 git 改用个人仓库">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/service-hi/target/" />
+    <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter1-5/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/target/" />
+    <ignored path="$PROJECT_DIR$/config-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/chapter7/config-config-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" selection-start-line="21" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="579" column="19" lean-forward="true" selection-start-line="579" selection-start-column="19" selection-end-line="579" selection-end-column="74" />
+                <folding>
+                  <element signature="e#148#149#0" expanded="true" />
+                  <element signature="e#214#215#0" expanded="true" />
+                  <element signature="e#329#330#0" expanded="true" />
+                  <element signature="e#381#382#0" expanded="true" />
+                  <element signature="e#186#187#0" expanded="true" />
+                  <element signature="e#275#276#0" expanded="true" />
+                  <element signature="e#362#363#0" expanded="true" />
+                  <element signature="e#411#412#0" expanded="true" />
+                  <element signature="e#201#202#0" expanded="true" />
+                  <element signature="e#262#263#0" expanded="true" />
+                  <element signature="e#175#176#0" expanded="true" />
+                  <element signature="e#247#248#0" expanded="true" />
+                  <element signature="e#207#208#0" expanded="true" />
+                  <element signature="e#268#269#0" expanded="true" />
+                  <element signature="e#151#152#0" expanded="true" />
+                  <element signature="e#191#192#0" expanded="true" />
+                  <element signature="e#179#180#0" expanded="true" />
+                  <element signature="e#258#259#0" expanded="true" />
+                  <element signature="e#442#443#0" expanded="true" />
+                  <element signature="e#478#479#0" expanded="true" />
+                  <element signature="e#602#603#0" expanded="true" />
+                  <element signature="e#634#635#0" expanded="true" />
+                  <element signature="e#788#789#0" expanded="true" />
+                  <element signature="e#823#824#0" expanded="true" />
+                  <element signature="e#125#126#0" expanded="true" />
+                  <element signature="e#199#200#0" expanded="true" />
+                  <element signature="e#121#122#0" expanded="true" />
+                  <element signature="e#195#196#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/zkp/configserver/ConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/zkp/configclient/ConfigClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="newtest" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/service-hi/src/main/java/springcloud/com/zkp/servicehi/ServiceHiApplication.java" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config-server/src/main/java/com/zkp/configserver/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-hi/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/springcloud/com/zkp/servicefeign/controller/HiController.java" />
+        <option value="$PROJECT_DIR$/service-feign/src/main/java/springcloud/com/zkp/servicefeign/service/SchedualServiceHiHystric.java" />
+        <option value="$PROJECT_DIR$/service-zuul/src/main/java/com/zkp/servicezuul/MyFilter.java" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/config-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-eureka-server/src/main/java/com/zkp/configeurakaserver/ConfigEurakaServerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter7/config-eureka-server/src/main/java/com/zkp/configeurakaserver/ConfigEurakaServerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter7/config-eureka-server/src/main/java/com/zkp/configeurakaserver/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter7/config-eureka-server/src/main/java/com/zkp/configeurakaserver/ConfigEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter7/config-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7/config-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7/config-config-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter7/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7/config-config-server/src/main/java/com/zkp/configconfigserver/ConfigConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/chapter7/config-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7/config-config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter7/config-config-client/src/main/java/com/zkp/configconfigclient/ConfigConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/zkp/configclient/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="186" />
+    <option name="y" value="5" />
+    <option name="width" value="1591" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\SpringCloudDemo\img" />
+      <recent name="E:\IdeaProjects\SpringCloudDemo\chapter7" />
+      <recent name="E:\IdeaProjects\SpringCloudDemo\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zkp.configeurakaserver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\SpringCloudDemo\img" />
+      <recent name="E:\IdeaProjects\SpringCloudDemo\chapter7" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16233766" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="Chapter7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.chapter7.Chapter7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.configclient.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.configconfigclient.ConfigConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.configconfigserver.ConfigConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigEurakaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.configeurakaserver.ConfigEurakaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.configeurakaserver.ConfigEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.com.zkp.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.com.zkp.servicefeign.ServiceFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceHiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="service-hi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.com.zkp.servicehi.ServiceHiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.com.zkp.serviceribbon.ServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkp.servicezuul.ServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item itemvalue="Spring Boot.ServiceHiApplication" />
+      <item itemvalue="Spring Boot.ServiceRibbonApplication" />
+      <item itemvalue="Spring Boot.ServiceZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.Chapter7Application" />
+      <item itemvalue="Spring Boot.ConfigEurakaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication (1)" />
+      <item itemvalue="Spring Boot.ConfigConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigConfigClientApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\123\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be632818-6073-40ef-9679-347b70680893" name="Default Changelist" comment="" />
+      <created>1557045755606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557045755606</updated>
+      <workItem from="1557045756794" duration="3562000" />
+      <workItem from="1557112870572" duration="205000" />
+      <workItem from="1557113590054" duration="8000" />
+      <workItem from="1557114983260" duration="5869000" />
+      <workItem from="1557130879618" duration="2367000" />
+      <workItem from="1557190806707" duration="17028000" />
+      <workItem from="1557277117039" duration="17530000" />
+      <workItem from="1557301334686" duration="191000" />
+      <workItem from="1557301546375" duration="2310000" />
+      <workItem from="1557307360680" duration="248000" />
+      <workItem from="1557307634250" duration="249000" />
+      <workItem from="1557307903552" duration="1940000" />
+      <workItem from="1557309865374" duration="194000" />
+      <workItem from="1557310075718" duration="330000" />
+      <workItem from="1557363802025" duration="3178000" />
+      <workItem from="1557371081929" duration="3089000" />
+      <workItem from="1557382808336" duration="203000" />
+      <workItem from="1557383026565" duration="72000" />
+      <workItem from="1557383113856" duration="3894000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改大小写">
+      <created>1557122228748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557122228748</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改大小写">
+      <created>1557136616849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557136616849</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改大小写">
+      <created>1557136662133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557136662133</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test">
+      <created>1557136725526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557136725526</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" 测试完成">
+      <created>1557136975891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557136975891</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" 测试完成">
+      <created>1557137076633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557137076633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加 zuul MyFilter 相关注解">
+      <created>1557193385929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557193385929</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加分布式配置中心 config-server, config-client">
+      <created>1557195022650</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557195022650</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加注解">
+      <created>1557199954470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557199954470</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加注释">
+      <created>1557211618250</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557211618250</updated>
+    </task>
+    <task id="LOCAL-00011" summary="格式修改">
+      <created>1557278350762</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557278350762</updated>
+    </task>
+    <task id="LOCAL-00012" summary="测试merge- merge">
+      <created>1557279353909</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557279353909</updated>
+    </task>
+    <task id="LOCAL-00013" summary="测试merge- merge">
+      <created>1557279551207</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557279551207</updated>
+    </task>
+    <task id="LOCAL-00014" summary="测试merge- merge">
+      <created>1557279700501</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557279700501</updated>
+    </task>
+    <task id="LOCAL-00015" summary="测试merge- merge">
+      <created>1557279882469</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557279882469</updated>
+    </task>
+    <task id="LOCAL-00016" summary="测试merge- merge">
+      <created>1557280004646</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557280004646</updated>
+    </task>
+    <task id="LOCAL-00017" summary="测试merge- merge">
+      <created>1557280038110</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557280038110</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge branch 'newtest' into testMerge&#10;&#10;# Conflicts:&#10;#&#9;service-zuul/src/main/java/com/zkp/servicezuul/MyFilter.java">
+      <created>1557280150028</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1557280150028</updated>
+    </task>
+    <task id="LOCAL-00019" summary="config 配置中心 git 改用个人仓库">
+      <created>1557287992223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557287992223</updated>
+    </task>
+    <task id="LOCAL-00020" summary="参数修改">
+      <created>1557309729792</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557309729792</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="62467000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.17697228" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5027322" side_tool="true" weight="0.17697228" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43418014" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.93070364" weight="0.39761648" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.40511727" side_tool="true" weight="0.25813448" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.6604478" weight="0.36659437" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49946696" weight="0.10086768" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5948827" weight="0.6561822" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23187633" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32985073" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32789028" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改大小写" />
+    <MESSAGE value="test" />
+    <MESSAGE value=" 测试完成" />
+    <MESSAGE value="添加 zuul MyFilter 相关注解" />
+    <MESSAGE value="添加分布式配置中心 config-server, config-client" />
+    <MESSAGE value="添加注解" />
+    <MESSAGE value="添加注释" />
+    <MESSAGE value="格式修改" />
+    <MESSAGE value="测试merge- merge" />
+    <MESSAGE value="Merge branch 'newtest' into testMerge&#10;&#10;# Conflicts:&#10;#&#9;service-zuul/src/main/java/com/zkp/servicezuul/MyFilter.java" />
+    <MESSAGE value="config 配置中心 git 改用个人仓库" />
+    <MESSAGE value="参数修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="参数修改" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/java/springcloud/com/zkp/servicehi/ServiceHiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/zkp/servicezuul/ServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-client/src/main/java/com/zkp/configclient/ConfigClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/config/config-client/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/config/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/springcloud/com/zkp/servicefeign/controller/HiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/springcloud/com/zkp/servicefeign/ServiceFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/springcloud/com/zkp/servicefeign/service/SchedualServiceHi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/java/springcloud/com/zkp/servicefeign/service/SchedualServiceHiHystric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/src/main/java/com/zkp/servicezuul/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-eureka-server (1).iml" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-server/src/main/java/com/zkp/configserver/ConfigServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-client/src/main/java/com/zkp/configclient/ConfigClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-eureka-server/src/main/java/com/zkp/configeurakaserver/ConfigEurakaServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/springcloud/com/zkp/eurekaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/config-config-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-config-server/src/main/java/com/zkp/configconfigserver/ConfigConfigServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/chapter7/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-config-client/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-config-client/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-config-server/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-eureka-server/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-eureka-server/src/main/java/com/zkp/configeurakaserver/ConfigEurekaServerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-eureka-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/chapter7/config-config-client/src/main/java/com/zkp/configconfigclient/ConfigConfigClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/zkp/configserver/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/src/main/java/com/zkp/configclient/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" selection-start-line="21" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="579" column="19" lean-forward="true" selection-start-line="579" selection-start-column="19" selection-end-line="579" selection-end-column="74" />
+            <folding>
+              <element signature="e#148#149#0" expanded="true" />
+              <element signature="e#214#215#0" expanded="true" />
+              <element signature="e#329#330#0" expanded="true" />
+              <element signature="e#381#382#0" expanded="true" />
+              <element signature="e#186#187#0" expanded="true" />
+              <element signature="e#275#276#0" expanded="true" />
+              <element signature="e#362#363#0" expanded="true" />
+              <element signature="e#411#412#0" expanded="true" />
+              <element signature="e#201#202#0" expanded="true" />
+              <element signature="e#262#263#0" expanded="true" />
+              <element signature="e#175#176#0" expanded="true" />
+              <element signature="e#247#248#0" expanded="true" />
+              <element signature="e#207#208#0" expanded="true" />
+              <element signature="e#268#269#0" expanded="true" />
+              <element signature="e#151#152#0" expanded="true" />
+              <element signature="e#191#192#0" expanded="true" />
+              <element signature="e#179#180#0" expanded="true" />
+              <element signature="e#258#259#0" expanded="true" />
+              <element signature="e#442#443#0" expanded="true" />
+              <element signature="e#478#479#0" expanded="true" />
+              <element signature="e#602#603#0" expanded="true" />
+              <element signature="e#634#635#0" expanded="true" />
+              <element signature="e#788#789#0" expanded="true" />
+              <element signature="e#823#824#0" expanded="true" />
+              <element signature="e#125#126#0" expanded="true" />
+              <element signature="e#199#200#0" expanded="true" />
+              <element signature="e#121#122#0" expanded="true" />
+              <element signature="e#195#196#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>config-client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23416787" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23416787" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
